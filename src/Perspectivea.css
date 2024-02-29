@@ -1,0 +1,46 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background: linear-gradient(to bottom right, #282c34, #fb61c2); /* Gradient color */
+  min-height: 100vh; /* Set the minimum height to cover the viewport height */
+  min-width: 100vw; /* Set the minimum width to cover the viewport width */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #8a7ab0;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.container{
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Three equal columns */
+  grid-template-rows: auto; /* Single row */
+  gap: 10px; 
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

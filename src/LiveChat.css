@@ -1,0 +1,108 @@
+/* App container */
+.App {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Live chat container */
+  #live-chat {
+    bottom: 0;
+    font-size: 12px;
+    right: 24px;
+    position: fixed;
+    width: 300px;
+  }
+  
+  /* Live chat header */
+  #live-chat header {
+    background: #220d18;
+    border-radius: 5px 5px 0 0;
+    color: #fff;
+    cursor: pointer;
+    padding: 16px 24px;
+  }
+  
+  /* Chat message counter */
+  .chat-message-counter {
+    background: #e62727;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    display: none;
+    font-size: 12px;
+    font-weight: bold;
+    height: 28px;
+    left: 0;
+    line-height: 28px;
+    margin: -15px 0 0 -15px;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    width: 28px;
+  }
+  
+  /* Chat close button */
+  .chat-close {
+    background: #1b2126;
+    border-radius: 50%;
+    color: #fff;
+    display: block;
+    float: right;
+    font-size: 10px;
+    height: 16px;
+    line-height: 16px;
+    margin: 2px 0 0 0;
+    text-align: center;
+    width: 16px;
+  }
+  
+  /* Chat container */
+  .chat {
+    background: #fff;
+  }
+  
+  /* Chat history */
+  .chat-history {
+    height: 252px;
+    padding: 8px 24px;
+    overflow-y: scroll;
+  }
+  
+  /* Chat message */
+  .chat-message {
+    margin: 16px 0;
+  }
+  
+  /* Chat message image */
+  .chat-message img {
+    border-radius: 50%;
+    float: left;
+  }
+  
+  /* Chat message content */
+  .chat-message-content {
+    margin-left: 56px;
+  }
+  
+  /* Chat time */
+  .chat-time {
+    float: right;
+    font-size: 10px;
+  }
+  
+  /* Chat feedback */
+  .chat-feedback {
+    font-style: italic;
+    margin: 0 0 0 80px;
+  }
+  
+  /* Input text field */
+  #live-chat input[type="text"] {
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    padding: 8px;
+    outline: none;
+    width: 234px;
+  }
+  
